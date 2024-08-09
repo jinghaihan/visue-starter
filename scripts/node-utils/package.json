@@ -1,0 +1,21 @@
+{
+  "name": "@visue/node-utils",
+  "version": "0.0.0",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "stub": "pnpm unbuild --stub"
+  },
+  "dependencies": {
+    "@manypkg/get-packages": "^2.2.2",
+    "find-up": "^7.0.0"
+  }
+}

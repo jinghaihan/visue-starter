@@ -1,0 +1,7 @@
+{
+  "name": "@visue/tsconfig",
+  "version": "0.0.0",
+  "dependencies": {
+    "vite": "^5.4.0"
+  }
+}

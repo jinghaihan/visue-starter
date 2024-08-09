@@ -1,0 +1,43 @@
+{
+  "name": "@visue/tailwind-config",
+  "version": "0.0.0",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./postcss": {
+      "types": "./src/postcss.config.ts",
+      "import": "./dist/postcss.config.mjs",
+      "require": "./dist/postcss.config.cjs",
+      "default": "./dist/postcss.config.mjs"
+    },
+    "./*": "./*"
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "stub": "pnpm unbuild --stub"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.4.9"
+  },
+  "dependencies": {
+    "@iconify/json": "^2.2.235"
+  },
+  "devDependencies": {
+    "@iconify/tailwind": "^1.1.2",
+    "@tailwindcss/nesting": "0.0.0-insiders.565cd3e",
+    "@tailwindcss/typography": "^0.5.14",
+    "@visue/node-utils": "workspace:*",
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.5",
+    "postcss": "^8.4.41",
+    "postcss-antd-fixes": "^0.2.0",
+    "postcss-import": "^16.1.0",
+    "postcss-preset-env": "^10.0.0",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}

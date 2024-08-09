@@ -1,0 +1,32 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": [
+    "pnpm-lock.yaml",
+    "**/tsconfig*.json"
+  ],
+  "globalEnv": ["NODE_ENV"],
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    },
+    "preview": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    },
+    "build:analyze": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    },
+    "stub": {},
+    "dev": {
+      "dependsOn": [],
+      "outputs": [],
+      "cache": false,
+      "persistent": true
+    },
+    "typecheck": {
+      "outputs": []
+    }
+  }
+}
