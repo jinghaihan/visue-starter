@@ -1,0 +1,61 @@
+{
+  "appearance": {
+    "title": "Customize",
+    "sub-title": "Pick a style and color for your components.",
+    "color-scheme": {
+      "title": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "auto": "System"
+    },
+    "theme-color": {
+      "title": "Color",
+      "builtin": {
+        "zinc": "Zinc",
+        "rose": "Rose",
+        "blue": "Blue",
+        "green": "Green",
+        "orange": "Orange",
+        "red": "Red",
+        "slate": "Slate",
+        "stone": "Stone",
+        "gray": "Gray",
+        "neutral": "Neutral",
+        "yellow": "Yellow",
+        "violet": "Violet"
+      }
+    },
+    "radius": {
+      "title": "Radius"
+    },
+    "page-transition": {
+      "title": "Page Transition"
+    }
+  },
+  "widget": {
+    "toggle-dark": "Toggle dark mode",
+    "toggle-fullscreen": "Toggle fullscreen mode",
+    "toggle-langs": "Change languages"
+  },
+  "fallback": {
+    "not-found": "Not found"
+  },
+  "button": {
+    "back": "Back",
+    "go": "GO"
+  },
+  "page": {
+    "home": "Home",
+    "welcome": "Welcome",
+    "about": "About",
+    "component-library": "Component library",
+    "fallback": "404"
+  },
+  "demo": {
+    "introduce": "Opinionated Vite Starter Template",
+    "whats-your-name": "What's your name?",
+    "hi": "Hi, {name}!",
+    "aka": "Also known as",
+    "dynamic-route": "Demo of dynamic route"
+  }
+}

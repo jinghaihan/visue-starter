@@ -1,0 +1,61 @@
+{
+  "appearance": {
+    "title": "自定义外观",
+    "sub-title": "为您的组件选择样式和颜色",
+    "color-scheme": {
+      "title": "主题",
+      "light": "浅色",
+      "dark": "深色",
+      "auto": "跟随系统"
+    },
+    "theme-color": {
+      "title": "主题配色",
+      "builtin": {
+        "zinc": "锌色灰",
+        "rose": "玫瑰红",
+        "blue": "深蓝色",
+        "green": "浅绿色",
+        "orange": "橙黄色",
+        "red": "深红色",
+        "slate": "青灰色",
+        "stone": "石板灰",
+        "gray": "中灰色",
+        "neutral": "中性色",
+        "yellow": "柠檬黄",
+        "violet": "紫罗兰"
+      }
+    },
+    "radius": {
+      "title": "圆角"
+    },
+    "page-transition": {
+      "title": "页面切换动画"
+    }
+  },
+  "widget": {
+    "toggle-dark": "切换深色模式",
+    "toggle-fullscreen": "切换全屏模式",
+    "toggle-langs": "切换语言"
+  },
+  "fallback": {
+    "not-found": "未找到页面"
+  },
+  "button": {
+    "back": "返回",
+    "go": "确定"
+  },
+  "page": {
+    "home": "首页",
+    "welcome": "欢迎",
+    "about": "关于",
+    "component-library": "组件库",
+    "fallback": "404"
+  },
+  "demo": {
+    "introduce": "固执己见的 Vite 项目模板",
+    "whats-your-name": "输入你的名字",
+    "hi": "你好，{name}",
+    "aka": "也叫",
+    "dynamic-route": "动态路由演示"
+  }
+}
